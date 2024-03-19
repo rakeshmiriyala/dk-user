@@ -1,0 +1,24 @@
+.carousel .control-next.control-arrow:before {
+    border-left: 8px solid #0a0a0a;
+}
+
+.carousel .control-prev.control-arrow:before {
+    border-right: 8px solid #0a0a0a;
+}
+
+
+.rating-card {
+    border: 2px solid hsl(0, 20%, 99%); /* Change the color and thickness as needed */
+    padding: 20px; /* Add padding to give some space inside the card */
+    border-radius: 8px; /* Optional: Add border-radius for rounded corners */
+  }
+
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+
+/* For IE, Edge and Firefox */
+.scrollbar-hide {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
